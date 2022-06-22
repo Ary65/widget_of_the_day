@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:widget_of_the_day/widgets/clip_oval/clipoval.dart';
+import 'package:widget_of_the_day/widgets/cupertino_action_sheet/cupertino_action_sceet.dart';
 import 'package:widget_of_the_day/widgets/image/image.dart';
 
 void main() {
@@ -17,7 +18,10 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       // home: const ClipOvalWidget(),
-      home: ImageWidget(),
+      // home: ImageWidget(),
+      home: const CupertinoActionSheetWidgt(
+        title: 'CupertionActivity',
+      ),
     );
   }
 }
